@@ -1,9 +1,9 @@
 # Trie
-This repository shares the code to create a Java Trie data structure and host it online where multiple global users can access it through a server. This was the final take-home interview for the Slingshot CS Fellowship.
+This repository shares the code to create a Java Trie data structure and host it online where multiple global users can access it through a server. This was the final take-home interview for the Slingshot CS Fellowship. I put all instructions in the same readme as it is easier to go through step-by-step on my specific approach.
 
-# Instructions (I put everything in the same readme as it was more clear)
-1) GreetServer.java is the code for the server. It contains the functions to add, search, delete, autocomplete, and print words in the trie. It is hosted on a Microsoft Azure Virtual Machine, which can be accessed through a Secure Shell Protocol (ssh) with the public key. If you have MacOS / Linux, simply ssh to the public key through terminal. If you are on Windows, do this through a terminal emulator (I suggest PuTTy: wwww.putty.org). 
-current Public Key: 40.78.97.221
+# Instructions 
+1) GreetServer.java is the code for the server. It contains the functions to add, search, delete, autocomplete, and print words in the trie. It is hosted on a Microsoft Azure Virtual Machine, which can be accessed through a Secure Shell Protocol (ssh) with the public key. If you have MacOS / Linux, simply ssh to the public key through terminal. If you are on Windows, do this through a terminal emulator (I suggest PuTTy: wwww.putty.org). I believe that PuTTy works for MacOS / Linux as well if you cannot find your ssh file.
+Current Public Key: 40.78.97.221
 
 2) Now that you have reached a linux terminal (hit yes to the pop ups about ssh fingerprints), you should be prompted for a username and password. You can sign into it with username: anaiy, password: $Bombay25$Bombay25. The reason why there is no private key is that the code for the server may not be running, so the user should be able to start it themselves. Also, I have allowed for changes in the code to be made for testing purposes.
 
