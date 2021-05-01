@@ -1,7 +1,7 @@
 # Trie
 This repository shares the code to create a Java Trie data structure and host it online where multiple global users can access it through a server. This was the final take-home interview for the Slingshot CS Fellowship.
 
-# Instructions
+# Instructions (I put everything in the same readme as it was more clear)
 1) GreetServer.java is the code for the server. It contains the functions to add, search, delete, autocomplete, and print words in the trie. It is hosted on a Microsoft Azure Virtual Machine, which can be accessed through a Secure Shell Protocol (ssh) with the public key. If you have MacOS / Linux, simply ssh to the public key through terminal. If you are on Windows, do this through a terminal emulator (I suggest PuTTy: wwww.putty.org). 
 current Public Key: 40.78.97.221
 
